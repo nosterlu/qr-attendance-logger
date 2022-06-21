@@ -1,0 +1,40 @@
+{
+  "include": [
+    "src"
+  ],
+
+  "exclude": [
+    "**/__pycache__",
+    "src/experimental",
+    "src/typestubs"
+  ],
+
+  "ignore": [
+    "src/oldstuff"
+  ],
+
+  "stubPath": "src/stubs",
+  // "venv": "env367",
+
+  "reportMissingImports": true,
+
+  "reportUnboundVariable": false,
+  "reportUndefinedVariable": false,
+  "reportGeneralTypeIssues": false,
+  "reportImplicitStringConcatenation": false,
+  "reportUnboundVariable": false,
+  "reportOptionalMemberAccess": false,
+  "reportMissingTypeStubs": false,
+
+  "executionEnvironments": [
+    {
+      "root": "src/qr_attendance_logger",
+      "extraPaths": [
+        "test"
+      ]
+    },
+    {
+      "root": "src"
+    }
+  ]
+}
